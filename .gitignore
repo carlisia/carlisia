@@ -1,0 +1,7 @@
+_layouts/gatsby-theme-kb/node_modules/
+_layouts/gatsby-theme-kb/.cache/
+_layouts/gatsby-theme-kb/public/
+_layouts/gatsby-theme-kb/package-lock.json
+
+.foam
+.vscode
