@@ -7,14 +7,18 @@
 ## 🏋️‍♀️ Work
 
 ### 🙋‍♀️ Planned
-
+- ✅ read career stuff for career conversation w/ manager ♥‿♥
 - [ ] [Create a GH issue template with a checklist for releases · Issue #111 · knative/release · GitHub](https://github.com/knative/release/issues/111) (-_-)
 
+[[pr reviews]]
+- ✅ [Fix deprecation notices by dprotaso · Pull Request #12958 · knative/serving](https://github.com/knative/serving/pull/12958?w=1) [[XXL]] ♥‿♥
+
 ### 😞 Unplanned
-- [[productivity]] ♥‿♥
-  - ✅ 💃 work on gh search query to list PRs to review in the terminal with a script [[gh queries]]
-  - ✅ 💃 create a work log system
-  - ✅ 💃 create a way to publish the worklog
+
+[[productivity]]
+- ✅ work on gh search query to list PRs to review in the terminal with a script [[gh queries]] ♥‿♥
+- ✅ create a work log system ♥‿♥
+- ✅ create a way to publish the worklog ♥‿♥
 
 ---
 ## 🚀 Daily logs (or so)

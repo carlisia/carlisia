@@ -49,7 +49,7 @@
 - Add issues to each item in the gh bets board
 - update [Knative Serving Bets Breakdown - Feb 2022](https://github.com/orgs/vmware-tanzu/projects/37/views/1) with new tasks
 - change Mark's 1.1 meeting time[[MF]]
-- create a new 1.1 doc [Mark <<>> Carlisia - Google Docs](https://docs.google.com/document/d/1CUtNJEQB5ncyQPwzSvRnkEoHnj0YXHv31k6ccr425ZE/edit#heading=h.f3rr838kod4r)
+- create a new 1.1 doc [Mark - Carlisia - Google Docs](https://docs.google.com/document/d/1CUtNJEQB5ncyQPwzSvRnkEoHnj0YXHv31k6ccr425ZE/edit#heading=h.f3rr838kod4r)
 
 ### admin
 - [ ] do dap survey (-_-)
