@@ -5,3 +5,8 @@ _layouts/gatsby-theme-kb/package-lock.json
 
 .foam
 .vscode
+
+node_modules
+
+package-lock.json
+package.json

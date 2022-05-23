@@ -30,6 +30,7 @@
     "rehype-katex": "6.0.2",
     "remark-math": "5.1.1",
     "gatsby-plugin-offline": "5.14.1",
-    "gatsby-plugin-mdx": "3.14.0"
+    "gatsby-plugin-mdx": "3.14.0",
+    "@mdx-js/react": "next"
   }
 }
