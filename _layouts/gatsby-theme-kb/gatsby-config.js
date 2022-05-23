@@ -1,8 +1,8 @@
 const path = require('path')
 
 module.exports = {
+  pathPrefix: "/carlisia",
   siteMetadata: {
-    pathPrefix: "/carlisia",
     // some SEO configs using by gatsby-theme-kb
     title: `Worklogs`, // Replace it with your site's title
     author: `Carlisia Thompson`, // Replace it with your name

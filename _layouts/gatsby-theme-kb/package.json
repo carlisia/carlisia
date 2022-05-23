@@ -4,11 +4,11 @@
   "description": "A foam template using gatsby-theme-kb for publishing you knowledge base",
   "main": "index.js",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md,mdx}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve --prefix-paths",
+    "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
