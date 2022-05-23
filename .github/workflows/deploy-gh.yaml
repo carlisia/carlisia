@@ -15,5 +15,5 @@ jobs:
           access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
           deploy-branch: gh-pages
           working-dir: _layouts/gatsby-theme-kb
-          gatsby-args: --prefix-paths
+
 
