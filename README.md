@@ -19,44 +19,31 @@
 ## 🏋️‍♀️ Work
 
 ### 🙋‍♀️ Planned
-
-[[relase]]
-- [ ] [Create a GH issue template with a checklist for releases · Issue #111 · knative/release · GitHub](https://github.com/knative/release/issues/111) (-_-)
-
-[[contributor]]
-- [ ] [PROCESS CHANGE: Guidance for improved repo structure + centralize/update common files · Issue #925 · knative/community · GitHub](https://github.com/knative/community/issues/925) [sad because it's late] (-_-)
+- [ ] [Create a GH issue template with a checklist for releases · Issue #111 · knative/release · GitHub](https://github.com/knative/release/issues/111) - [[relase]] (-_-)
+- [ ] [PROCESS CHANGE: Guidance for improved repo structure + centralize/update common files · Issue #925 · knative/community · GitHub](https://github.com/knative/community/issues/925) - [[contributor]] [sad because it's late] (-_-)
   - look at [INCUBATING PROJECT ONBOARDING] Knative · Issue #794 · cncf/toc and the license scanning tool (fossa or snyk)
   - get back to krna about health files propagation
   - get back to mauricio
-
-[[net-contour]]
-  - [ ] figure out if we need to add new gw-api tests for the new contour/envoy  ¿ⓧ_ⓧﮌ
-    - if so, open a GH issue and imoplement it
-    - better supported kourier, still doesn't support our kingress, long term we might not need to support kourier [[DP]]
-
-[[networking]]
-- [ ] next WG update? ¿ⓧ_ⓧﮌ
+- [ ] figure out if we need to add new gw-api tests for the new contour/envoy  - [[net-contour]] ¿ⓧ_ⓧﮌ
+  - if so, open a GH issue and imoplement it
+  - better supported kourier, still doesn't support our kingress, long term we might not need to support kourier [[DP]]
+- [ ] next WG update? - [[networking]]¿ⓧ_ⓧﮌ
   - watch the last [[TOC]] update to figure out if it was mentioned what'll be in the next update
   - sign up for something to be done by next update / line up issues that can be included
-  - use this to formulate the next [[notes/quarterly plans]]
-
-[[automation]] [[networking]]
-- [ ] dependabot: investigate if it's possible to add it to all the net-* repos to auto update the dependencies ♥‿♥
+  - use this to formulate the next [[quarterly plans]]
+- [ ] dependabot: investigate if it's possible to add it to all the net-* repos to auto update the dependencies - [[automation]] [[networking]] ♥‿♥
   - if yes, open issue(s) for this
-
-[[pr reviews]]
-- select some prs to review this week
 
 admin stuff
 - [ ] add PTO to calendar
-- [ ] do dap survey (-_-)
+- [ ] do dap survey (-_-) [[corp/trainning]]
   - [https://vmware.slack.com/archives/G012YRRQRQ9/p1651688261353299](https://vmware.slack.com/archives/G012YRRQRQ9/p1651688261353299)
   - [https://vmware.slack.com/archives/C014B9H63LP/p1651195321092949](https://vmware.slack.com/archives/C014B9H63LP/p1651195321092949)
 - vmw hive training (-_-)
-  - [ ] [Saba: Health and Safety Orientation for Employees](https://vmware.sabacloud.com/Saba/Web_spf/NA1PRD0121/app/shared;spf-url=common%2Flearningeventdetail%2Fcrtfy000000004358392%3Fcontext%3Duser&learnerId%3Demplo000000000948793&returnPage%3DMyLearning) - 2020
-  - [ ] [Saba: Respectful Workplace - US Employees](https://vmware.sabacloud.com/Saba/Web_spf/NA1PRD0121/app/shared;spf-url=common%2Flearningeventdetail%2Fcrtfy000000004361812%3Fcontext%3Duser&learnerId%3Demplo000000000948793&returnPage%3DMyLearning)
-  - [ ] [Saba: Employee - Health & Safety Orientation Training](https://vmware.sabacloud.com/Saba/Web_spf/NA1PRD0121/app/shared;spf-url=common%2Flearningeventdetail%2Fcrtfy000000004362149%3Fcontext%3Duser&learnerId%3Demplo000000000948793&returnPage%3DMyLearning) - 2022
-  - [ ] [Saba: Psychological Safety: An Introduction](https://vmware.sabacloud.com/Saba/Web_spf/NA1PRD0121/app/shared;spf-url=common%2Fleclassdetail%2Fregdw000000006681925%3Fcontext%3Duser&learnerId%3Demplo000000000948793&returnPage%3DMyLearning)
+  - [ ] [Saba: Health and Safety Orientation for Employees](https://vmware.sabacloud.com/Saba/Web_spf/NA1PRD0121/app/shared;spf-url=common%2Flearningeventdetail%2Fcrtfy000000004358392%3Fcontext%3Duser&learnerId%3Demplo000000000948793&returnPage%3DMyLearning) - 2020 [[corp/trainning]]
+  - [ ] [Saba: Respectful Workplace - US Employees](https://vmware.sabacloud.com/Saba/Web_spf/NA1PRD0121/app/shared;spf-url=common%2Flearningeventdetail%2Fcrtfy000000004361812%3Fcontext%3Duser&learnerId%3Demplo000000000948793&returnPage%3DMyLearning) [[corp/trainning]]
+  - [ ] [Saba: Employee - Health & Safety Orientation Training](https://vmware.sabacloud.com/Saba/Web_spf/NA1PRD0121/app/shared;spf-url=common%2Flearningeventdetail%2Fcrtfy000000004362149%3Fcontext%3Duser&learnerId%3Demplo000000000948793&returnPage%3DMyLearning) - 2022 [[corp/trainning]]
+  - [ ] [Saba: Psychological Safety: An Introduction](https://vmware.sabacloud.com/Saba/Web_spf/NA1PRD0121/app/shared;spf-url=common%2Fleclassdetail%2Fregdw000000006681925%3Fcontext%3Duser&learnerId%3Demplo000000000948793&returnPage%3DMyLearning) [[corp/trainning]]
 ### 😞 Unplanned
 
 ### 🔁 Ongoing
@@ -65,40 +52,76 @@ admin stuff
 
 - [[pr reviews]]
 
----
-
 ## 🚀 Daily logs (or so)
 
+---
+
+## Assessment
+
+### Positives
+### Negatives
+### Reflections
+
+### List of past logs and [[assessments]].
 ---
 
 ## ⚡ References
 
 ### 🗓️ Past weeks
 
-Logs and notes from past weeks: [[review-log]].
+
 
 ---
 
 ### ➡️ Incoming
 
-Dump of things in my [[inbox]].
+Looking ahead to: [[inbox]].
 
+---
 
-
+## footnote
+Why I share my work in public: [Work with the garage door up](https://notes.andymatuschak.org/z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu).
 
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
-[05-16-week-log]: 2022/may/05-16-week-log.md "Log week of May 16th"
-[relase]: relase.md "relase"
-[contributor]: contributor.md "contributor"
-[net-contour]: notes/net-contour.md "net-contour"
-[DP]: notes/DP.md "DP"
-[networking]: networking.md "networking"
-[TOC]: notes/TOC.md "TOC"
-[notes/quarterly plans]: <notes/quarterly plans.md> "quarterly plans"
-[automation]: automation.md "automation"
-[pr reviews]: <pr reviews.md> "pr reviews"
-[support]: support.md "support"
-[weekly-log]: 2022/weekly-log.md "Weekly log"
-[inbox]: inbox.md "inbox"
+[05-16-week-log]: 2022/may/05-16-week-log.md "log week of May 16th"
+[relase]: oss/relase.md "relase"
+[contributor]: oss/contributor.md "contributor"
+[net-contour]: knative/net-contour.md "net-contour"
+[DP]: collaborators/DP.md "DP"
+[networking]: knative/networking.md "networking"
+[TOC]: oss/TOC.md "TOC"
+[quarterly plans]: <contributions/quarterly plans.md> "quarterly plans"
+[automation]: oss/automation.md "automation"
+[networking]: knative/networking.md "networking"
+[corp/trainning]: corp/trainning.md "training"
+[corp/trainning]: corp/trainning.md "training"
+[corp/trainning]: corp/trainning.md "training"
+[corp/trainning]: corp/trainning.md "training"
+[corp/trainning]: corp/trainning.md "training"
+[support]: knative/support.md "support"
+[pr reviews]: <oss/pr reviews.md> "pr reviews"
+[assessments]: 2022/assessments.md "assessments"
+[inbox]: contributions/inbox.md "inbox"
+[//end]: # "Autogenerated link references"
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[05-16-week-log]: 2022/may/05-16-week-log.md "log week of May 16th"
+[relase]: oss/relase.md "relase"
+[contributor]: oss/contributor.md "contributor"
+[net-contour]: knative/net-contour.md "net-contour"
+[DP]: collaborators/DP.md "DP"
+[networking]: knative/networking.md "networking"
+[TOC]: oss/TOC.md "TOC"
+[quarterly plans]: <contributions/quarterly plans.md> "quarterly plans"
+[automation]: oss/automation.md "automation"
+[networking]: knative/networking.md "networking"
+[corp/trainning]: corp/trainning.md "training"
+[corp/trainning]: corp/trainning.md "training"
+[corp/trainning]: corp/trainning.md "training"
+[corp/trainning]: corp/trainning.md "training"
+[corp/trainning]: corp/trainning.md "training"
+[support]: knative/support.md "support"
+[pr reviews]: <oss/pr reviews.md> "pr reviews"
+[assessments]: 2022/assessments.md "assessments"
+[inbox]: contributions/inbox.md "inbox"
 [//end]: # "Autogenerated link references"
