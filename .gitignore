@@ -10,3 +10,7 @@ node_modules
 
 package-lock.json
 package.json
+
+**/daily-logs/
+
+# 2022/daily-logs

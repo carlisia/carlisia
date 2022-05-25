@@ -14,11 +14,11 @@
 - ❌ [PROCESS CHANGE: Guidance for improved repo structure + centralize/update common files · Issue #925 · knative/community · GitHub](https://github.com/knative/community/issues/925) - [[contributor]] [sad because it's late] (-_-)
 
 ### 😞 Unplanned
-- ✅ [Fix deprecation notices by dprotaso · Pull Request #12958 · knative/serving](https://github.com/knative/serving/pull/12958?w=1) [[pr reviews]] [[XXL]] ♥‿♥
-- ✅ work on [[gh queries]] to list PRs to review in the terminal with a script [[contributor]] ♥‿♥
+- ✅ [Fix deprecation notices by dprotaso · Pull Request #12958 · knative/serving](https://github.com/knative/serving/pull/12958?w=1) [[pr-reviews]] [[XXL]] ♥‿♥
+- ✅ work on [[gh-queries]] to list PRs to review in the terminal with a script [[contributor]] ♥‿♥
 
 ### 💃 Weekend
-- ✅ more work on gh search query to list PRs to review in the terminal with a script [[gh queries]] [[contributor]] ♥‿♥
+- ✅ more work on gh search query to list PRs to review in the terminal with a script [[gh-queries]] [[contributor]] ♥‿♥
 - ✅ create a work log system [[productivity]] ♥‿♥
 
 ---
@@ -31,13 +31,13 @@
 ## Assessments
 ### Positives
 - [[positives]] over the weekend I stumbled across a cool microsite that works in the roamresearch style of notes, which I've been using for over a year. I had been thinking about logging my work in public but a website or blog for that felt way too heavy. Turned out this was the tool I didn't know I needed! Really happy with the flow of adding and moving things about. The structure looks amazing, love the backlinks, and I was already making use of that with other tools (roam/amplenote/drafts)
-- [[positives]] at least, "for fun", I worked on the [[gh queries]]/scripts to fetch PRs on the command line. Made great progress. It's gonna be great to be able to avoid the browser all together. Specially happy that I can can link the PR from the terminal directly into vscode, and do code reviews in the IDE, being able to checkout the code, etc. ran into a potential issue with the [[owners file]] and PR/labeling automation. Have added a todo to investigate this further.
+- [[positives]] at least, "for fun", I worked on the [[gh-queries]]/scripts to fetch PRs on the command line. Made great progress. It's gonna be great to be able to avoid the browser all together. Specially happy that I can can link the PR from the terminal directly into vscode, and do code reviews in the IDE, being able to checkout the code, etc. ran into a potential issue with the [[owners-file]] and PR/labeling automation. Have added a todo to investigate this further.
 
 ### Negatives
 - [[negatives]] another failed week at planning. ppl were out for KubeconEU and I got into the "I'll do the important work later", which meant doing the work and also the deciding, and that... wasn't great.
 ### Reflections
-- [[reflections]] after spending the weekend building this worklog, I realize how powerful it is for me to have all my incoming work under one context [[inbox]] in a way that I can write and easilly and quickly move things about as much as I need to. I also realize that making my work more public can sorta be an antidote to isolation. I am very motivated to keep up with this log!
-- [[reflections]] talking about incoming work, I also realized this week that I have not been treating my 1.1s as inboxes. Action items from those meetings were going into notes but never surfacing during "planning". I have also not been blocking time in the calendar to do [[pr reviews]] and issue triage. These have been happening adhoc.
+- [[reflections]] after spending the weekend building this worklog, I realize how powerful it is for me to have all my incoming work under one context, like an catch-all inbox, in a way that I can write and easilly and quickly move things about as much as I need to. I also realize that making my work more public can sorta be an antidote to isolation. I am very motivated to keep up with this log!
+- [[reflections]] talking about incoming work, I also realized this week that I have not been treating my 1.1s as inboxes. Action items from those meetings were going into notes but never surfacing during "planning". I have also not been blocking time in the calendar to do [[pr-reviews]] and issue triage. These have been happening adhoc.
 - [[reflections]] mind boggling realization this week was that I raise my hand to do things that I "think" are helpful to other people, but that I actually find super boring. Aaaaaand I feel like I have to do these first before I get to the stuff **I** like (like coding 🙄), this gets me into such a jam. I got four great tips this week from my adhd coaching to handle tackling boring tasks:
     - this one is actually from me: stop raising my hand for boring tasks ◕_◕
     - do the fun task(s) first, or intercalate them; something to do with my brain needing way more dopamine than the regular Jane
@@ -54,21 +54,23 @@
 [quarterly plans]: <../../contributions/quarterly plans.md> "quarterly plans"
 [relase]: ../../oss/relase.md "relase"
 [contributor]: ../../oss/contributor.md "contributor"
-[gh queries]: <../../notebook/gh queries.md> "gh queries"
+[pr reviews]: <../../oss/pr reviews.md> "pr reviews"
+[XXL]: ../../oss/XXL.md "XXL"
+[gh queries]: <../../notebook/2022/gh queries.md> "gh queries"
 [contributor]: ../../oss/contributor.md "contributor"
-[gh queries]: <../../notebook/gh queries.md> "gh queries"
+[gh queries]: <../../notebook/2022/gh queries.md> "gh queries"
 [contributor]: ../../oss/contributor.md "contributor"
 [productivity]: ../../contributions/productivity.md "productivity"
-[05-22]: <../daily logs/05-22.md> "May 22nd, Sunday"
-[05-21]: <../daily logs/05-21.md> "May 21st, Saturday"
+[05-22]: ../daily-logs/05-22.md "May 22nd, Sunday"
+[05-21]: ../daily-logs/05-21.md "May 21st, Saturday"
 [positives]: ../positives.md "positives"
 [positives]: ../positives.md "positives"
-[gh queries]: <../../notebook/gh queries.md> "gh queries"
-[owners file]: <../../notebook/owners file.md> "owners file"
+[gh queries]: <../../notebook/2022/gh queries.md> "gh queries"
+[owners file]: <../../notebook/2022/owners file.md> "owners file"
 [negatives]: ../negatives.md "negatives"
 [reflections]: ../reflections.md "reflections"
-[inbox]: ../../contributions/inbox.md "inbox"
 [reflections]: ../reflections.md "reflections"
+[pr reviews]: <../../oss/pr reviews.md> "pr reviews"
 [reflections]: ../reflections.md "reflections"
 [reflections]: ../reflections.md "reflections"
 [//end]: # "Autogenerated link references"
@@ -79,20 +81,19 @@
 [contributor]: ../../oss/contributor.md "contributor"
 [pr reviews]: <../../oss/pr reviews.md> "pr reviews"
 [XXL]: ../../oss/XXL.md "XXL"
-[gh queries]: <../../notebook/gh queries.md> "gh queries"
+[gh queries]: <../../notebook/2022/gh queries.md> "gh queries"
 [contributor]: ../../oss/contributor.md "contributor"
-[gh queries]: <../../notebook/gh queries.md> "gh queries"
+[gh queries]: <../../notebook/2022/gh queries.md> "gh queries"
 [contributor]: ../../oss/contributor.md "contributor"
 [productivity]: ../../contributions/productivity.md "productivity"
-[05-22]: <../daily logs/05-22.md> "May 22nd, Sunday"
-[05-21]: <../daily logs/05-21.md> "May 21st, Saturday"
+[05-22]: ../daily-logs/05-22.md "May 22nd, Sunday"
+[05-21]: ../daily-logs/05-21.md "May 21st, Saturday"
 [positives]: ../positives.md "positives"
 [positives]: ../positives.md "positives"
-[gh queries]: <../../notebook/gh queries.md> "gh queries"
-[owners file]: <../../notebook/owners file.md> "owners file"
+[gh queries]: <../../notebook/2022/gh queries.md> "gh queries"
+[owners file]: <../../notebook/2022/owners file.md> "owners file"
 [negatives]: ../negatives.md "negatives"
 [reflections]: ../reflections.md "reflections"
-[inbox]: ../../contributions/inbox.md "inbox"
 [reflections]: ../reflections.md "reflections"
 [pr reviews]: <../../oss/pr reviews.md> "pr reviews"
 [reflections]: ../reflections.md "reflections"
