@@ -12,7 +12,7 @@ body:
       1) Please change the title to include the current release.
       2) Before cutting a release branch for any of the repos on this list, the `eventing` repo must have been [released and published](https://github.com/knative/eventing/releases).
       3) Please ensure that there are no outstanding PRs for each repo before cutting its release branch.
-      4) See the full [release instructions](https://github.com/knative/release/blob/main/INSTRUCTIONS.md) for details. [test instructions](../blob/main/README.md)
+      4) See the full [release instructions](https://github.com/knative/release/blob/main/INSTRUCTIONS.md) for details.
     options:
       - label: All items on the "Release - First Batch of Repos Checklist" have been checked off
         required: true

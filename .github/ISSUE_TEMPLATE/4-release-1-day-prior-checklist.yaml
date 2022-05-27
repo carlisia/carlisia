@@ -1,14 +1,19 @@
 name: "1 Day Prior to Release Checklist"
-description: Please see the full [release instructions](../../INSTRUCTIONS.md) for details.
+description: This release checklist includes checks to ensure the release is ready to start.
 title: "[Release vx.xx]: 1 Day Prior to Release Checklist"
+assignees:
+  - knative-release-leads
 body:
 - id: release-4
   type: checkboxes
   attributes:
-    label: Which tasks have been fully completed?
-    description: Please only check the boxes for tasks that are fully completed.
+    label: Please mark each task as they get done.
+    description: |
+      - Please change the title to include the current release.
+      - See the full [release instructions](https://github.com/knative/release/blob/main/INSTRUCTIONS.md) for details.
     options:
       - label: All items on the "7 Days Prior to Release Checklist" have been checked off
-      - label: Readiness has been confirmed for each repo
-      - label: Nighly builds have been checked for each repo
+        required: true
+      - label: Obtained ACK from each WG leads that the release is imminent and is green-lighted
+      - label: Nighly builds are passing for each repon [list of nightly builds](https://github.com/knative/release/blob/main/README.md#repo-releasability)
       - label: A new GitHub issue for the "Day of Release - First Batch of Repos Checklist" has been created
