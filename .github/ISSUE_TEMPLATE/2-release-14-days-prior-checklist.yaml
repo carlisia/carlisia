@@ -1,0 +1,13 @@
+name: 14 Days Prior to Release Checklist
+description: Please see the full [release instructions](../../INSTRUCTIONS.md) for details.
+title: "[Release vx.xx]: 14 Days Prior to Release Checklist"
+body:
+- id: release-2
+  type: checkboxes
+  attributes:
+    label: Which tasks have been fully completed?
+    description: Please only check the boxes for tasks that are fully completed.
+    options:
+      - label: All items on the "First Week of Rotation Checklist" have been checked off
+      - label: The Knative releasability defaults have been updated
+      - label: A new GitHub issue for the "7 Days Prior to Release Checklist" has been created

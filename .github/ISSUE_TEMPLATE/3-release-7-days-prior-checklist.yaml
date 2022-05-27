@@ -1,0 +1,26 @@
+name: 7 Days Prior to Release Checklist
+description: This list includes checks for the release of supporting repos, which must be released in the order listed. Please see the full [release instructions](../../INSTRUCTIONS.md) for details.
+title: "[Release vx.xx]: 7 Days Prior to Release Checklist"
+body:
+- id: release-3
+  type: checkboxes
+  attributes:
+    label: Which tasks have been fully completed? Please ensure there are no outstanding PRs for each repo release.
+    description: Please only check the boxes for tasks that are fully completed. Please ensure there are no outstanding PRs for each repo release.
+    options:
+      - label: All items on the "14 Days Prior to Release Checklist" have been checked off
+      - label: step 1 - knative.dev/hack release branch has been cut (hack does not have dependencies)
+      - label: step 2 - knative.dev/pkg release branch has been cut
+      - label: step 3 - no dependency needed to be updated for the knative.dev/pkg release
+      - label: step 4 - knative.dev/networking release branch has been cut
+      - label: step 5 - no dependency needed to be updated for the knative.dev/networking release
+      - label: step 6 - knative.dev/caching release branch has been cut
+      - label: step 7 - no dependency needed to be updated for the knative.dev/caching release
+      - label: step 8 - knative.dev/reconciler-test release branch has been cut
+      - label: step 9 - no dependency needed to be updated for the knative.dev/reconciler-test release
+      - label: step 10 - knative.dev/control-protocol release branch has been cut
+      - label: step 11 - no dependency needed to be updated for the knative.dev/control-protocol release
+      - label: Announcement of the imminent `pkg` cut has been made in the **#general** Slack channel
+      - label: Nightly builds have been checked for each repo
+      - label: Release notes have been collected for each repo (that has them)
+      - label: A new GitHub issue for the "1 Day Prior to Release Checklist" has been created

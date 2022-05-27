@@ -1,0 +1,17 @@
+name: "Release - Second Batch of Repos Checklist"
+description: Please see the full [release instructions](../../INSTRUCTIONS.md) for details.
+title: "[Release vx.xx]: Second Batch of Repos Checklist"
+body:
+- id: release-4
+  type: checkboxes
+  attributes:
+    label: Which tasks have been fully completed? Please ensure there are no outstanding PRs for each repo release.
+    description: Please only check the boxes for tasks that are fully completed. Please ensure there are no outstanding PRs for each repo release.
+    options:
+      - label: All items on the "Release - First Batch of Repos Checklist" have been checked off
+      - label: knative.dev/eventing-ceph
+      - label: knative.dev/eventing-kogito
+      - label: knative.dev/eventing-nats
+      - label: knative.dev/eventing-rabbitmq
+      - label: knative.dev/sample-source
+      - label: A new GitHub issue for the "Release - Third Batch of Repos Checklist" has been created

@@ -12,6 +12,9 @@ Note: In INSTRUCTIONS.md, I removed the subsection below from section `## 14 day
 
 `### 2. Announce the imminent `pkg` cut`
 
+### Test:
+✅ Please open the [Release - Second Batch of Repos Checklist](https://github.com/carlisia/carlisia/issues/new?assignees=carlisia&template=6-release-second-batch-checklist.yaml) to track the releases.
+
 
 ## Resources
 [Create a GH issue template with a checklist for releases · Issue #111 · knative/release · GitHub](https://github.com/knative/release/issues/111)
