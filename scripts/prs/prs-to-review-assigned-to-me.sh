@@ -15,7 +15,7 @@ for i in "${all_paths[@]}"
 do
     pushd "$i" > /dev/null || exit;
     # search query
-    res=$(gh pr list -s open --search " -author:@me assignee:@me" --json author,title,author,createdAt,updatedAt,mergedAt,number,url,state,labels,files)
+    res=$(gh pr list -s open --search "-author:@me -author:author:knative-automation assignee:@me" --json author,title,author,createdAt,updatedAt,mergedAt,number,url,state,labels,files)
     name=$(git remote show origin -n | grep "Fetch URL:" | sed -E "s#^.*/(.*)#\1#" | sed "s#.git##")
 
     if [ "$name" == "serving" ]; then
