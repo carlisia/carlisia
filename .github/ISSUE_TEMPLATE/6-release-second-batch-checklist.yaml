@@ -1,12 +1,15 @@
 name: "Release - Second Batch of Repos Checklist"
-description: Please see the full [release instructions](../../INSTRUCTIONS.md) for details.
+description: This is a release checklist for the repositories that depend on the `eventing` repo.
 title: "[Release vx.xx]: Second Batch of Repos Checklist"
+assignees:
+  - knative-release-leads
+  - carlisia
 body:
 - id: release-4
   type: checkboxes
   attributes:
-    label: Which tasks have been fully completed? Please ensure there are no outstanding PRs for each repo release.
-    description: Please only check the boxes for tasks that are fully completed. Please ensure there are no outstanding PRs for each repo release.
+    label: Please only check each repo as done after it has been successfully released and published. The repos in this checklist can only be cut after the `eventing` repo has been released and published https://github.com/knative/eventing/releases, testing link ->  [eventing releases](https://github.com/knative/eventing/releases). \n Please also ensure that there are no outstanding PRs for each repo before cutting its release branch. Please see the full release instructions for details (https://github.com/knative/release/blob/0f481ee5e96a9bb9b515c4bc151e541d93bc05c7/INSTRUCTIONS.md. Or, Please see the full [release instructions for details](https://github.com/knative/release/blob/0f481ee5e96a9bb9b515c4bc151e541d93bc05c7/INSTRUCTIONS.md).
+    description: The repos in this checklist can only be cut after the `eventing` repo has been released and published https://github.com/knative/eventing/releases, testing link ->  [eventing releases](https://github.com/knative/eventing/releases). \n Please also ensure that there are no outstanding PRs for each repo before cutting its release branch. Please see the full release instructions for details (https://github.com/knative/release/blob/0f481ee5e96a9bb9b515c4bc151e541d93bc05c7/INSTRUCTIONS.md. Or, Please see the full [release instructions for details](https://github.com/knative/release/blob/0f481ee5e96a9bb9b515c4bc151e541d93bc05c7/INSTRUCTIONS.md).
     options:
       - label: All items on the "Release - First Batch of Repos Checklist" have been checked off
       - label: knative.dev/eventing-ceph
