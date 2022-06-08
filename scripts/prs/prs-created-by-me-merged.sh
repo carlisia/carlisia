@@ -15,7 +15,7 @@ for i in "${all_paths[@]}"
 do
     pushd "$i" > /dev/null || exit;
     # search query
-    res=$(gh pr list -s open --search "author:@me" --json author,title,author,createdAt,updatedAt,mergedAt,number,url,state,labels,files)
+    res=$(gh pr list -s merged --search "author:@me sort:updated-desc" --json author,title,author,createdAt,mergedAt,mergedAt,number,url,state,labels,files)
     name=$(git remote show origin -n | grep "Fetch URL:" | sed -E "s#^.*/(.*)#\1#" | sed "s#.git##")
 
     if [ "$name" == "serving" ]; then
@@ -42,8 +42,8 @@ do
         echo "${serving[@]}" | jq  -s '
             [.[] |
             {
-                updated: (if .updatedAt == null then "" else (.updatedAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end),
                 created:  (if .createdAt == null then "" else (.createdAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end ),
+                merged: (if .mergedAt == null then "" else (.mergedAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end),
                 num: .number,
                 author: .author.login,
                 title: .title | .[0:70],
@@ -63,8 +63,8 @@ do
     echo "$res" | jq '
     [.[] |
     {
-        updated: (if .updatedAt == null then "" else (.updatedAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end),
         created:  (if .createdAt == null then "" else (.createdAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end ),
+        merged: (if .mergedAt == null then "" else (.mergedAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end),
         num: .number,
         author: .author.login,
         title: .title | .[0:70],
