@@ -35,7 +35,7 @@
 - [Notifications - assigned](https://github.com/notifications?query=reason%3Aassign)
 
 ## Scripts
-[[scripts/README]]
+[[scripts/README#How to use]]
 ### PR reviews
 [[pr-reviews]]
 ```
