@@ -1,17 +1,17 @@
 #!/usr/local/bin/bash
 
 # search query
-res=$(gh pr list -s open --search "org:knative org:knative-sandbox author:@me" --json author,title,author,createdAt,updatedAt,mergedAt,number,url,state,labels,files)
+res=$(gh pr list -s all --search "author:@me -org:carlisia org:knative org:knative-sandbox -org:vmware-tanzu" --json author,title,createdAt,updatedAt,mergedAt,number,url,state,labels,state,headRepository)
 
-# printf '🦎 project:       %s, %s\n' "$name" "$len";
-# printf '📕 open in editor:  %s\n---\n' "$i";
-echo "$res" | jq '
+printf '🦎 My PRs not in Knative\n\n';
+echo "$res"  | jq '
 [.[] |
 {
+    state: .state,
+    repo: .headRepository.name,
     updated: (if .updatedAt == null then "" else (.updatedAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end),
     created:  (if .createdAt == null then "" else (.createdAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end ),
     num: .number,
-    author: .author.login,
     title: .title | .[0:70],
     labels: [.labels[].name] | join(", "),
     url: .url,

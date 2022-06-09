@@ -15,7 +15,7 @@ for i in "${all_paths[@]}"
 do
     pushd "$i" > /dev/null || exit;
     # search query
-    res=$(gh pr list -s merged --search "author:@me sort:updated-desc" --json author,title,author,createdAt,mergedAt,mergedAt,number,url,state,labels,files)
+    res=$(gh pr list -s merged --search "author:@me sort:updated-desc" --json author,title,createdAt,mergedAt,mergedAt,number,url,labels,files)
     name=$(git remote show origin -n | grep "Fetch URL:" | sed -E "s#^.*/(.*)#\1#" | sed "s#.git##")
 
     if [ "$name" == "serving" ]; then
@@ -45,7 +45,6 @@ do
                 created:  (if .createdAt == null then "" else (.createdAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end ),
                 merged: (if .mergedAt == null then "" else (.mergedAt | strptime("%Y-%m-%dT%H:%M:%SZ") | todate[0:10]) end),
                 num: .number,
-                author: .author.login,
                 title: .title | .[0:70],
                 labels: [.labels[].name] | join(", "),
                 url: .url,            }
