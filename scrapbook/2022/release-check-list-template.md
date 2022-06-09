@@ -1,5 +1,6 @@
 # release-check-list-template.md
-
+PR: [Add checklists + restructure instructions    by carlisia · Pull Request #132 · knative/release · GitHub](https://github.com/knative/release/pull/132)
+Issue: [Create a GH issue template with a checklist for releases · Issue #111 · knative/release · GitHub](https://github.com/knative/release/issues/111)
 
 ## References
 
@@ -11,12 +12,12 @@ In this PR:
 Major changes:
 
 - Edited the instruction text for improvements
-- 
+-
 
 Minor changes worth noting:
 
 - changed the PR used as reference to add/remove leads, existing one didn't update the `OWNERS_ALIASES` file
-- 
+-
 
 Notes:
 

@@ -28,6 +28,8 @@ bash scripts/prs/prs-to-review-involves-me.sh
 bash scripts/prs/prs-to-review-large.sh
 bash scripts/prs/prs-to-review-small.sh
 
+## Issues
+bash scripts/issues/my-issues-in-knative.sh
 ## [[support]]
 [GG and SO](https://raindrop.io/carlisia/community-support-24917036)
 

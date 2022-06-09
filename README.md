@@ -26,10 +26,10 @@ Future planning: [[inbox]]
 ## 🏋️‍♀️ Work
 
 ### 🙋‍♀️ Planned
-- ✅ [[release-check-list-template]] - Update PR [Add checklists + restructure instructions    by carlisia · Pull Request #132 · knative/release · GitHub](https://github.com/knative/release/pull/132)
+- ✅ [[release-check-list-template]] - Update PR
 - ✅ [[corp-trainning#vmw hive training 06/2022]]
 - ✅ Add a [Gateway API Roadmap](https://github.com/orgs/knative-sandbox/projects/10/views/1) - ♥‿♥
-- ✅  PR merged: [Add carlisia to kubernetes-sigs org by carlisia · Pull Request #3482 · kubernetes/org · GitHub](https://github.com/kubernetes/org/pull/3482)
+- ✅ PR merged: [Add carlisia to kubernetes-sigs org by carlisia · Pull Request #3482 · kubernetes/org · GitHub](https://github.com/kubernetes/org/pull/3482)
 - [ ] sortout tasks from [[2022/gateway-api-beta#Roadmap]] for [[v1.6]] ♥‿♥
 - [ ] [[dependabot-net-repos]] - [[automation]] [[networking]] ♥‿♥
 - [ ] Friday [[06-10]] [[PTO]] ♥‿♥
