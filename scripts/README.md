@@ -1,7 +1,7 @@
 # scripts
 
 ## About
-These scripts are for monitoring GitHub PRs and Issues on a command line, to avoid doing so on a browser. Most are pointing the Knative project, more specifically the ones related to Networking. They can be used "as is" if you have the [requirements](#requirements) and are logged into the GH api via the CLI. They can also be easily adapted.
+Most of the [scripts in this directory](https://github.com/carlisia/carlisia/tree/main/scripts) are for monitoring GitHub (GH) PRs and Issues on a command line, to avoid doing so on a browser. Others are for infra-structure related operations. Most are pointing to the Knative project, more specifically the ones related to Networking. The GH related scripts can be used "as is" if you have the [requirements](#requirements) and are authenticated into the GH api via the CLI, since they make use of the `author:@me` param, instead of a hard-coded GH username. They can also be easily adapted.
 
 Some scripts generate output like the bit below. I have my environment setup such that if I click on that output link, that project will open in my default editor. And my editor has plugins that allow me to do code reviews (as well as create PRs) locally, which saves a ton of time and risk of distractions!
 
