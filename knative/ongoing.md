@@ -7,7 +7,9 @@
 - [Notifications - assigned](https://github.com/notifications?query=reason%3Aassign)
 
 ## [[pr-reviews]]
+```
 bash scripts/update-repos.sh
+```
 
 ### My PRs
 #### All
