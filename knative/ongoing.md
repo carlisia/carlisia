@@ -10,26 +10,53 @@
 bash scripts/update-repos.sh
 
 ### My PRs
+#### All
+```
 bash scripts/prs/my-prs-in-knative.sh
+```
+```
 bash scripts/prs/my-prs-not-in-knative.sh
+```
 
+#### Open
+```
 bash scripts/prs/my-prs-open-knative.sh
+```
+```
 bash scripts/prs/my-prs-open-knative-networking.sh
+```
 
+#### Merged
+```
 bash scripts/prs/my-prs-merged-knative.sh
+```
+```
 bash scripts/prs/my-prs-merged-knative-networking.sh
+```
 
 ### PRs to review
+```
 bash scripts/prs/prs-to-review-automation.sh
+```
+```
 bash scripts/prs/prs-to-review-assigned-to-me.sh
+```
+```
 bash scripts/prs/prs-to-review-involves-me.sh
-
+```
 ### Help networking contributors and maintainers
+```
 bash scripts/prs/prs-to-review-large.sh
+```
+```
 bash scripts/prs/prs-to-review-small.sh
+```
 
 ## Issues
+```
 bash scripts/issues/my-issues-in-knative.sh
+```
+
 ## [[support]]
 [GG and SO](https://raindrop.io/carlisia/community-support-24917036)
 
