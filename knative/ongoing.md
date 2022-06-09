@@ -38,6 +38,7 @@ Kubernetes
 - [kubernetes-sig-network - Google Groups](https://groups.google.com/g/kubernetes-sig-network)
 - [kubernetes-sig-architecture - Google Groups](https://groups.google.com/g/kubernetes-sig-architecture)
 - [k8s dev - Google Groups](https://groups.google.com/a/kubernetes.io/g/dev)
+- [envoy-gateway-developers - Google Groups](https://groups.google.com/g/envoy-gateway-developers)
 
 Golang
 - [golang-announce - Google Groups](https://groups.google.com/g/golang-announce)
