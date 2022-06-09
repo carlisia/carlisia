@@ -11,7 +11,7 @@ bash scripts/update-repos.sh
 
 ### My PRs
 bash scripts/prs/my-prs-in-knative.sh
-bash scripts/my-prs-not-in-knative.sh
+bash scripts/prs/my-prs-not-in-knative.sh
 
 bash scripts/prs/my-prs-open-knative.sh
 bash scripts/prs/my-prs-open-knative-networking.sh
