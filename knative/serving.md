@@ -3,7 +3,7 @@
 ## serving runtime post Kubernetes Gateway API
 [[questions]]: what does Knative bring to the table post [[gateway-api]]?
 
-Knative Serving-as-a-runtime benefits (by @evankanderson, on [[05-31]]):
+Knative Serving-as-a-runtime benefits (by @evankanderson, on 05-31):
 - Revision management, and ability to roll back one or multiple releases.
 - Mapping services to HTTP Routes is break-even
 - Makes tagging / canary exposure on a different domain name easier

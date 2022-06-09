@@ -1,7 +1,7 @@
 # What I'm up to this week
 
 ## About
-- Online version of this [Worklogs](https://carlisia.github.io/carlisia/)
+- Online version of this [Worklog](https://carlisia.github.io/carlisia/)
 - Week of: May 23rd, 2022
 - whoami:
   - [GitHub / carlisia](https://github.com/carlisia)
@@ -17,8 +17,8 @@
 ## ➡️ Incoming
 Next release of [[knative]]
 - work planned for [[v1.6]]
-- due date: release date minus 1.5 week **([[06-21]])**
-- release date **[[07-05]]**
+- due date: release date minus 1.5 week **(06-21)**
+- release date **07-05**
 
 Future planning: [[inbox]]
 
