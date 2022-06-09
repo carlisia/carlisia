@@ -1,12 +1,19 @@
 # envoy
 
-- [Envoy documentation — envoy 1.22.0-dev-03ba5f documentation](https://www.envoyproxy.io/docs/envoy/latest/)
+## Read
 - [Getting Edgy: What is Envoy Proxy? | by Stephanie Coyle | Ambassador Labs](https://blog.getambassador.io/what-is-envoy-proxy-eeb1f7316ce7)
+
+## Courses
+- [Envoy Fundamentals, a training course to enable faster adoption of Envoy Proxy | by Peter Jausovec | Envoy Proxy](https://blog.envoyproxy.io/envoy-fundamentals-a-training-course-to-enable-faster-adoption-of-envoy-proxy-44060c9883bd)
+  - [Envoy Fundamentals - Tetrate Academy](https://academy.tetrate.io/courses/take/envoy-fundamentals/lessons/28296413-1-0-module-overview)
+
+## Others
+- [Envoy documentation — envoy 1.22.0-dev-03ba5f documentation](https://www.envoyproxy.io/docs/envoy/latest/)
 - [Service mesh 102: Envoy configuration | Cloud Native Computing Foundation](https://www.cncf.io/blog/2021/11/09/service-mesh-102-envoy-configuration/)
 - [Using Envoy Proxy as your gateway to service mesh | Cloud Native Computing Foundation](https://www.cncf.io/online-programs/using-envoy-proxy-as-your-gateway-to-service-mesh/)
 
-- [Load Balancing](https://www.amplenote.com/notes/bf2cdf1a-8e4d-11ec-8b87-9a0f445b4d80)
-    - [Load balancing and HTTP Routing with Envoy Proxy - YouTube](https://www.youtube.com/watch?v=D0cuv1AEftE)
+## Videos
+- [Load balancing and HTTP Routing with Envoy Proxy - YouTube](https://www.youtube.com/watch?v=D0cuv1AEftE)
 
 - [Building an Edge Control Plane with Kubernetes and Envoy | Ambassador](https://www.getambassador.io/resources/building-an-edge-control-plane-with-kubernetes/)
 - [Envoy control plane "hello world" - envoy-samples/README.md at 92e2b5d36a1f8e36ce1312030cc6d55abb429f72 · mehdihadeli/envoy-samples](https://github.com/mehdihadeli/envoy-samples/blob/92e2b5d36a1f8e36ce1312030cc6d55abb429f72/envoy_control/README.md)
@@ -23,9 +30,6 @@
     - > Matt Klein explains why Lyft developed Envoy, focusing primarily on the operational agility that the burgeoning service mesh paradigm provides, with a particular focus on microservice networking observability.
 
   - [Matt Klein on the Success of Envoy and the Future of the Service Mesh – The New Stack](https://thenewstack.io/matt-klein-on-the-success-of-envoy-and-the-future-of-the-service-mesh/)
-
-## Courses
-- [Envoy Fundamentals - Tetrate Academy](https://academy.tetrate.io/courses/take/envoy-fundamentals/lessons/28296413-1-0-module-overview)
 
 ## Others
 [iximiuz/envoy-playground: Container-based playground showing various capabilities of service proxy pattern.](https://github.com/iximiuz/envoy-playground)

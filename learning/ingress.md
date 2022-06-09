@@ -2,20 +2,16 @@
 
 - [Kubernetes Ingress Controllers - Google Sheets](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238)
 
-- [Dave Cheney](https://www.amplenote.com/notes/c0d12c90-8e4d-11ec-9808-9a0f445b4d80) [Contour](https://www.amplenote.com/notes/bda5a924-8e4d-11ec-9808-9a0f445b4d80)
+- [Dave Cheney] [Contour]
     - [IngressRoute: A Path Towards a Better Ingress Object for Kubernetes - David Cheney, VMware - YouTube](https://www.youtube.com/watch?v=PvqmL5MygaM)
-    - [Ingress is dead, long live ingressroute - slides](https://dave.cheney.net/paste/ingress-is-dead-long-live-ingressroute.pdf) [#wip](https://www.amplenote.com/notes/62d3f244-8e4d-11ec-8b87-9a0f445b4d80)
+    - [Ingress is dead, long live ingressroute - slides](https://dave.cheney.net/paste/ingress-is-dead-long-live-ingressroute.pdf)
 
-- [Kubernetes Ingress Controller Guide: Explanations and Examples](https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers/) [#wip](https://www.amplenote.com/notes/62d3f244-8e4d-11ec-8b87-9a0f445b4d80)
-
+- [Kubernetes Ingress Controller Guide: Explanations and Examples](https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers/)
 - [Kubernetes Ingress Controller For Beginners (Overview & Types)](https://k21academy.com/docker-kubernetes/kubernetes-ingress-controllers/)
-
 - [Kubernetes Kubectl Proxy vs NodePort vs LoadBalancer vs Ingress with WeMakeDevOps - YouTube](https://www.youtube.com/watch?v=SdhCbs7g6ZY)
-
 - [Webinar: Simplifying Microservices Security With a Service Mesh - YouTube 🔊](https://www.youtube.com/watch?v=Ai8HlkI7Mm4)
-
-- [Kubernetes TLS](https://www.amplenote.com/notes/c0b03cce-8e4d-11ec-8b87-9a0f445b4d80)
-    - [Create a Kubernetes TLS Ingress from scratch in Minikube - YouTube](https://www.youtube.com/watch?v=7K0gAYmWWho)
+- [Kubernetes TLS]
+  - [Create a Kubernetes TLS Ingress from scratch in Minikube - YouTube](https://www.youtube.com/watch?v=7K0gAYmWWho)
 
 - [Ingress Resource - Google Kubernetes Engine (GKE) Networking | Coursera](https://www.coursera.org/lecture/deploying-workloads-google-kubernetes-engine-gke/ingress-resource-MwWSm)
 

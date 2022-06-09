@@ -59,6 +59,37 @@ bash scripts/prs/prs-to-review-small.sh
 bash scripts/issues/my-issues-in-knative.sh
 ```
 
+## Other projects
+### PRs
+#### net-gateway-api
+```
+bash scripts/projects/prs-net-gateway-api-open.sh
+```
+```
+bash scripts/projects/prs-net-gateway-api-merged.sh
+```
+#### Gateway API
+```
+bash scripts/projects/prs-gateway-api-open.sh
+```
+```
+bash scripts/projects/prs-gateway-api-merged.sh
+```
+
+#### Contour
+
+#### Istio
+
+#### Envoy Gateway
+
+### Issues
+#### Gateway API
+#### Contour
+
+#### Istio
+
+#### Envoy Gateway
+
 ## [[support]]
 [GG and SO](https://raindrop.io/carlisia/community-support-24917036)
 

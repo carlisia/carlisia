@@ -9,11 +9,11 @@ Related:
 - [Envoy Gateway Offers to Standardize Kubernetes Ingress – The New Stack](https://thenewstack.io/envoy-gateway-offers-to-standardize-kubernetes-ingress/)
 - [The Envoy Gateway project wants to bring Envoy to the masses | TechCrunch](https://techcrunch.com/2022/05/16/the-envoy-gateway-project-wants-to-bring-envoy-to-the-masses/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAALGOcpqdoaLysKplkzU8Df2T0IcES8xfdlrBMgoc80fNIUAR11Fe5MT0v34hRm98FbFL9IA2A9pxm9jPvQqw-fqI9IvAIpTqzFBJRUIQL9zuTe0LO4-vEYexHf2bXFysYqpCwsNR3FgvoyuOePEKL-ml6slIDetpsqFvoaEXUbB4)
 - [Envoy Gateway Makes Using Envoy Proxy Easier for Developers and Reverses Fragmentation - DevOps.com](https://devops.com/envoy-gateway-makes-using-envoy-proxy-easier-for-developers-and-reverses-fragmentation/)
+- [gateway/GOALS.md at main · envoyproxy/gateway](https://github.com/envoyproxy/gateway/blob/main/GOALS.md) [[2022/gateway-api-beta]]
 
 ## Resources
 - [Envoy Gateway Community Meeting - Google Docs](https://docs.google.com/document/d/1leqwsHX8N-XxNEyTflYjRur462ukFxd19Rnk3Uzy55I/edit#heading=h.cyki8rsts10w)
 - [envoyproxy/gateway: Manages Envoy Proxy as a standalone or Kubernetes-based application gateway](https://github.com/envoyproxy/gateway)
-- [gateway/GOALS.md at main · envoyproxy/gateway](https://github.com/envoyproxy/gateway/blob/main/GOALS.md) [[2022/gateway-api-beta]]
 - [envoy-gateway-developers - Google Groups](https://groups.google.com/g/envoy-gateway-developers)
 
 ## Others
