@@ -7,26 +7,6 @@ tl;dr: at a high, conceptual level, there's not really a difference, they are al
 I submit that when one doesn't understand the concept of something that is used to build something else that is used to build something else, it is naturally hard to grok how things work as things move up through higher levels of a tech stack. And, understanding a technical concept a lot of times has a lot to do with understanding the meaning that a group of people assigned to a software functionality, as well as understanding the intended boundaries around that functionality. If one can sort of grasp those two things, they will be pretty much fluent. This is the goal for this (very rudimentary) "documentation".
 
 Each of the headers in this document is the Google search terms used to obtain the cited references. In other words: there's lots more where these came from! Looking at images of diagrams (not included) that come up with these searches can be very helpful.
-
-- [Gateway et al](#gateway-et-al)
-  - [Status](#status)
-  - [what is an API](#what-is-an-api)
-  - [api vs service](#api-vs-service)
-  - [what is an api gateway](#what-is-an-api-gateway)
-  - [what is a proxy](#what-is-a-proxy)
-  - [what is a reverse proxy](#what-is-a-reverse-proxy)
-  - [proxy vs reverse proxy](#proxy-vs-reverse-proxy)
-  - [what is an ingress](#what-is-an-ingress)
-  - [what is an ingress in networking](#what-is-an-ingress-in-networking)
-  - [ingress vs egress](#ingress-vs-egress)
-  - [ingress vs egress in networking](#ingress-vs-egress-in-networking)
-  - [Now entering Kubernetes territory...](#now-entering-kubernetes-territory)
-    - [is kubernetes an api gateway](#is-kubernetes-an-api-gateway)
-    - [ingress vs proxy](#ingress-vs-proxy)
-    - [ingress object vs controller](#ingress-object-vs-controller)
-    - [what is an envoy](#what-is-an-envoy)
-    - [what is envoy](#what-is-envoy)
-    - [what is Kubernetes Gateway API](#what-is-kubernetes-gateway-api)
 ## Status
 This document is currently a wip.
 
