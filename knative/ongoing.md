@@ -6,6 +6,7 @@
   - [GH notifications](#gh-notifications)
   - [Scripts](#scripts)
     - [PR reviews](#pr-reviews)
+      - [PRs reviewed](#prs-reviewed)
       - [My PRs](#my-prs)
         - [All](#all)
         - [Open](#open)
@@ -44,6 +45,10 @@
 [[pr-reviews]]
 ```
 bash scripts/update-repos.sh
+```
+#### PRs reviewed
+```
+bash scripts/prs/prs-in-knative-reviewed-merged.sh
 ```
 
 #### My PRs

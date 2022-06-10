@@ -13,7 +13,8 @@ This document is currently a wip.
 ## what is an API
 Starting at (sort of) the beginning. It is all "APIs all the way down". I actually just thought of googling this and, lo and behold, there's a great techie friendly post I would strongly recommend to anyone wanting to get a better understanding of what an API actually is: [APIs All the Way Down - Not Boring by Packy McCormick](https://www.notboring.co/p/apis-all-the-way-down?s=r).
 
-It is **very much** worth noting that in most all cases when we talk API we mean an `http` API.
+It is **very much** worth noting that in most all cases when we talk API we mean an `http` API:
+- [HTTP API vs REST API: 3 Critical Differentiators - Learn | Hevo](https://hevodata.com/learn/http-api-vs-rest-api/)
 
 [API - Wikipedia](https://en.wikipedia.org/wiki/API):
 > An application programming interface is a connection between computers or between computer programs. It is a type of software interface, offering a service to other pieces of software. A document or standard that describes how to build or use such a connection or interface is called an API specification.
@@ -45,22 +46,17 @@ It is **very much** worth noting that in most all cases when we talk API we mean
 [The Difference Between Proxy and Reverse Proxy](https://www.strongdm.com/blog/difference-between-proxy-and-reverse-proxy#:~:text=A%20traditional%20forward%20proxy%20server,on%20behalf%20of%20multiple%20servers):
 > A traditional forward proxy server allows multiple clients to route traffic to an external network. For instance, a business may have a proxy that routes and filters employee traffic to the public Internet. A reverse proxy, on the other hand, routes traffic on behalf of multiple servers.May 26, 2022
 
-## what is an ingress
-[What is an Ingress? | kubelabs](https://collabnix.github.io/kubelabs/Ingress101/#:~:text=In%20Kubernetes%2C%20an%20Ingress%20is,rules%20into%20a%20single%20resource):
-> In Kubernetes, an Ingress is an object that allows access to your Kubernetes services from outside the Kubernetes cluster. You configure access by creating a collection of rules that define which inbound connections reach which services. This lets you consolidate your routing rules into a single resource.
+## ingress vs egress
+[Ingress/Egress - txdot.gov](https://www.txdot.gov/driver/txdot-visual-dictionary/ingress-egress.html#:~:text=Ingress%20refers%20to%20the%20right,roadways%20to%20houses%20and%20businesses):
+> Ingress refers to the right to enter a property, while egress refers to the right to exit a property. For example, a driveway provides ingress and egress from roadways to houses and businesses.
 
-## what is an ingress in networking
+## what is ingress vs egress in networking
 [What is Ingress Traffic? — Definition by Techslang](https://www.techslang.com/definition/what-is-ingress-traffic/#:~:text=Ingress%20traffic%20pertains%20to%20all,message%20from%20an%20external%20source):
 > Ingress traffic pertains to all network traffic and data that come from outside a local network and is expected to land on a specific location within it. It is initiated from a remote location or within a network but outside a subnetwork. An example of such is an email message from an external source.
 
 [What is Ingress Traffic? - Definition from Techopedia](https://www.techopedia.com/definition/2415/ingress-traffic):
 > Ingress traffic is composed of all the data communications and network traffic originating from external networks and destined for a node in the host network. Ingress traffic can be any form of traffic whose source lies in an external network and whose destination resides inside the host network.Aug 18, 2011
 
-## ingress vs egress
-[Ingress/Egress - txdot.gov](https://www.txdot.gov/driver/txdot-visual-dictionary/ingress-egress.html#:~:text=Ingress%20refers%20to%20the%20right,roadways%20to%20houses%20and%20businesses):
-> Ingress refers to the right to enter a property, while egress refers to the right to exit a property. For example, a driveway provides ingress and egress from roadways to houses and businesses.
-
-## ingress vs egress in networking
 [Ingress vs. Egress: What is egress and ingress in the cloud? | Aviatrix](https://aviatrix.com/learn-center/cloud-security/egress-and-ingress/#:~:text=Egress%20in%20the%20world%20of,the%20boundary%20of%20a%20network):
 > Egress in the world of networking implies traffic that exits an entity or a network boundary, while Ingress is traffic that enters the boundary of a network.
 
@@ -70,7 +66,12 @@ It is **very much** worth noting that in most all cases when we talk API we mean
 ## Now entering Kubernetes territory...
 - See [[kubernetes-networking]] for more resources.
 
+## what is a Kubernetes ingress
+[What is an Ingress? | kubelabs](https://collabnix.github.io/kubelabs/Ingress101/#:~:text=In%20Kubernetes%2C%20an%20Ingress%20is,rules%20into%20a%20single%20resource):
+> In Kubernetes, an Ingress is an object that allows access to your Kubernetes services from outside the Kubernetes cluster. You configure access by creating a collection of rules that define which inbound connections reach which services. This lets you consolidate your routing rules into a single resource.
+
 ### is kubernetes an api gateway
+Note: think of this question as: "Is Kubernetes Ingress an API Gateway?"
 [Can you expose your services with an API gateway in Kubernetes? - learnk8s.io](https://learnk8s.io/kubernetes-ingress-api-gateway#:~:text=Gloo%20is%20a%20Kubernetes%20Ingress,service%2Dmesh%20integration%20and%20security):
 > Gloo is a Kubernetes Ingress that is also an API gateway. It is capable of providing rate limiting, circuit breaking, retries, caching, external authentication and authorisation, transformation, service-mesh integration and security.
 
@@ -99,6 +100,7 @@ For more resources:
 
 ### what is Kubernetes Gateway API
 - [[gw-api-desc#Question: Why is it named "gateway api" and not "api gateway".]]
+- [[serving#Knative serving runtime post Kubernetes Gateway API]]
 
 - Some resources:
   - [[gateway-api#Read]]
@@ -107,10 +109,11 @@ For more resources:
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [kubernetes-networking]: kubernetes-networking.md "kubernetes networking"
-[ingress]: ingress.md "ingress"
+[ingress]: ingress.md "Kubernetes Ingress"
 [envoy]: envoy.md "envoy"
 [envoy-gateway]: ../kubernetes/envoy-gateway.md "envoy gateway"
-[gateway-api#What is it]: ../kubernetes/gateway-api.md "gateway-api"
-[gateway-api#Read]: ../kubernetes/gateway-api.md "gateway-api"
-[gateway-api#Videos]: ../kubernetes/gateway-api.md "gateway-api"
+[gw-api-desc#Question: Why is it named "gateway api" and not "api gateway".]: ../scrapbook/2022/gw-api-desc.md "Gateway API description"
+[serving#Knative serving runtime post Kubernetes Gateway API]: ../knative/serving.md "serving"
+[gateway-api#Read]: ../kubernetes/gateway-api.md "Kubernetes Gateway API"
+[gateway-api#Videos]: ../kubernetes/gateway-api.md "Kubernetes Gateway API"
 [//end]: # "Autogenerated link references"

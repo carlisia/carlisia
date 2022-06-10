@@ -14,9 +14,11 @@ Others
 - [Kubernetes Networking | Pluralsight](https://app.pluralsight.com/channels/details/96cec438-f7a6-4fff-b2ea-e51d07c4e880)
 - [Configuring and Managing Kubernetes Networking, Services, and Ingress | Pluralsight](https://app.pluralsight.com/player?course=f70643ff-3604-456d-baa4-7ace23171956)
 - [Managing Ingress Traffic Patterns for Kubernetes Services | Pluralsight](https://app.pluralsight.com/library/courses/managing-ingress-traffic-patterns-kubernetes-services/table-of-contents)
-- [Kubernetes Networking Intro and Deep-Dive - Bowei Du & Tim Hockin, Google - YouTube](https://www.youtube.com/watch?v=tq9ng_Nz9j8)
 - [Deep Dive Into Kubernetes Networking with CNI - Ardan Labs Education](https://courses.ardanlabs.com/courses/take/deep-dive-into-kubernetes-networking-with-cni/lessons/24416118-module-1)
 - [Networking in Kubernetes - KubeAcademy](https://kube.academy/courses/networking-in-kubernetes)
+- [Kubernetes Networking Intro and Deep-Dive - Bowei Du & Tim Hockin, Google - YouTube](https://youtu.be/tq9ng_Nz9j8?t=1231)
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcarlisia%2FnQC0dIjZcG.png?alt=media&token=2600acbd-2be1-4cc4-993b-230d982f6ed3)
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcarlisia%2FZUghuxms59.png?alt=media&token=608ee353-7b64-4511-afd3-7f32db4e7bdc)
 
 ## Other resources
 - [Tracing the path of network traffic in Kubernetes](https://learnk8s.io/kubernetes-network-packets)
