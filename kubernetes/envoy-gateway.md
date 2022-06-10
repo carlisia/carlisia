@@ -3,7 +3,7 @@ Joint initiative to implement Gateway API as a subproject of Envoy, and is aimin
 
 Related:
 - [[contour]]
-## To read
+## Read
 - [Introducing Envoy Gateway. Today we are thrilled to announce Envoy… | by Matt Klein | May, 2022 | Envoy Proxy](https://blog.envoyproxy.io/introducing-envoy-gateway-ad385cc59532) [[2022/gateway-api-beta]]
 - [Contour Joins Forces With Community Leaders to Build New Envoy Gateway Project - Open Source Blog](https://blogs.vmware.com/opensource/2022/05/16/contour-and-community-build-new-envoy-gateway/) [[2022/gateway-api-beta]]
 - [Envoy Gateway Offers to Standardize Kubernetes Ingress – The New Stack](https://thenewstack.io/envoy-gateway-offers-to-standardize-kubernetes-ingress/)

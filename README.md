@@ -34,7 +34,9 @@ Future planning: [[inbox]]
 - [ ] [[dependabot-net-repos]] - [[automation]] [[networking]] ♥‿♥
 - [ ] Friday 06-10 [[PTO]] ♥‿♥
 ### 😞 Unplanned
-
+- ✅ Remove open issues from past milestones, create v1.6, for these repos:
+  - [Milestones - knative-sandbox/net-kourier](https://github.com/knative-sandbox/net-kourier/milestones)
+  - [Milestones - knative-sandbox/net-istio](https://github.com/knative-sandbox/net-istio/milestones)
 ### 🔁 Ongoing
 [[ongoing]]
 
