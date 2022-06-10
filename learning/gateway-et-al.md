@@ -21,8 +21,6 @@ It is **very much** worth noting that in most all cases when we talk API we mean
 [What is an API? (Application Programming Interface) | MuleSoft](https://www.mulesoft.com/resources/api/what-is-an-api):
 > API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
 
-
-
 ## api vs service
 [API vs Web Service: What’s the Difference? - guru99.com](https://www.guru99.com/api-vs-web-service-difference.html#:~:text=Web%20service%20is%20a%20collection%20of%20open%20source%20protocols%20and,other%20without%20any%20user%20involvement):
 > Web service is a collection of open source protocols and standards used for exchanging data between systems or applications whereas API is a software interface that allows two applications to interact with each other without any user involvement.Apr 23, 2022
@@ -100,7 +98,7 @@ For more resources:
 > Envoy is an L7 proxy and communication bus designed for large modern service oriented architectures. The project was born out of the belief that: The network should be transparent to applications. When network and application problems do occur it should be easy to determine the source of the problem.
 
 ### what is Kubernetes Gateway API
-- [[gateway-api#What is it]]
+- [[gw-api-desc#Question: Why is it named "gateway api" and not "api gateway".]]
 
 - Some resources:
   - [[gateway-api#Read]]
