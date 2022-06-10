@@ -8,7 +8,29 @@ I submit that when one doesn't understand the concept of something that is used 
 
 Each of the headers in this document is the Google search terms used to obtain the cited references. In other words: there's lots more where these came from! Looking at images of diagrams (not included) that come up with these searches can be very helpful.
 
-## What is an API
+- [Gateway et al](#gateway-et-al)
+  - [Status](#status)
+  - [what is an API](#what-is-an-api)
+  - [api vs service](#api-vs-service)
+  - [what is an api gateway](#what-is-an-api-gateway)
+  - [what is a proxy](#what-is-a-proxy)
+  - [what is a reverse proxy](#what-is-a-reverse-proxy)
+  - [proxy vs reverse proxy](#proxy-vs-reverse-proxy)
+  - [what is an ingress](#what-is-an-ingress)
+  - [what is an ingress in networking](#what-is-an-ingress-in-networking)
+  - [ingress vs egress](#ingress-vs-egress)
+  - [ingress vs egress in networking](#ingress-vs-egress-in-networking)
+  - [Now entering Kubernetes territory...](#now-entering-kubernetes-territory)
+    - [is kubernetes an api gateway](#is-kubernetes-an-api-gateway)
+    - [ingress vs proxy](#ingress-vs-proxy)
+    - [ingress object vs controller](#ingress-object-vs-controller)
+    - [what is an envoy](#what-is-an-envoy)
+    - [what is envoy](#what-is-envoy)
+    - [what is Kubernetes Gateway API](#what-is-kubernetes-gateway-api)
+## Status
+This document is currently a wip.
+
+## what is an API
 Starting at (sort of) the beginning. It is all "APIs all the way down". I actually just thought of googling this and, lo and behold, there's a great techie friendly post I would strongly recommend to anyone wanting to get a better understanding of what an API actually is: [APIs All the Way Down - Not Boring by Packy McCormick](https://www.notboring.co/p/apis-all-the-way-down?s=r).
 
 It is **very much** worth noting that in most all cases when we talk API we mean an `http` API.
