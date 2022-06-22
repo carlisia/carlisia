@@ -3,9 +3,11 @@
 - [[gateway-api]]
 - [[net-gateway-api]]
 - [[scrapbook-work-private/gateway-api-beta]]
+- 👁 [update to Gateway API v0.5.0/v1beta1 · Issue #4560 · projectcontour/contour](https://github.com/projectcontour/contour/issues/4560)
 
-## Tasks
+## Issues
 ### [[v1.6]]
+- [ ] [Document on Knative.dev about installing via Gateway · Issue #5040 · knative/docs](https://github.com/knative/docs/issues/5040)
 - ✅ Add a [Gateway API Roadmap](https://github.com/orgs/knative-sandbox/projects/10/views/1) - ♥‿♥
 - [ ] sortout tasks from [[2022/gateway-api-beta#Roadmap]] for [[v1.6]] ♥‿♥
 
@@ -35,11 +37,11 @@
 [net-gateway-api]: ../../knative/net-gateway-api.md "net-gateway-api"
 [scrapbook-work-private/gateway-api-beta]: ../../2022/scrapbook-work-private/gateway-api-beta.md "gateway-api beta"
 [v1.6]: ../../contributions/v1.6.md "v1.6"
+[2022/gateway-api-beta#Roadmap]: gateway-api-beta.md "gateway-api beta"
 [2022/gateway-api-beta#References]: gateway-api-beta.md "gateway-api beta"
 [envoy-gateway#Read]: ../../kubernetes/envoy-gateway.md "envoy gateway"
 [gateway-api#Read]: ../../kubernetes/gateway-api.md "Kubernetes Gateway API"
 [gateway-api#Videos]: ../../kubernetes/gateway-api.md "Kubernetes Gateway API"
-[2022/gateway-api-beta#Roadmap]: gateway-api-beta.md "gateway-api beta"
 [envoy#Read]: ../../learning/envoy.md "envoy"
 [envoy#Courses]: ../../learning/envoy.md "envoy"
 [inbox]: ../../contributions/inbox.md "inbox"

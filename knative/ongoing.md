@@ -3,6 +3,7 @@
 - [ongoing](#ongoing)
   - [Next [[networking]] review updates](#next-networking-review-updates)
   - [Next Knative releases](#next-knative-releases)
+  - [Networking milestones](#networking-milestones)
   - [GH notifications](#gh-notifications)
   - [Scripts](#scripts)
     - [PR reviews](#pr-reviews)
@@ -25,13 +26,26 @@
   - [Other GG](#other-gg)
 
 ## Next [[networking]] review updates
+[knative/community: Knative TOC Review schedule](https://github.com/knative/community/blob/main/mechanics/TOC-REVIEW.schedule)
+
 - 08/18/2022
 - 10/20/2022
-- [community/TOC-REVIEW.schedule at main · knative/community](https://github.com/knative/community/blob/main/mechanics/TOC-REVIEW.schedule)
+
 ## Next Knative releases
+[knative/release: Knative release schedule](https://github.com/knative/release#release-schedule)
+[Networking WG Roadmap](https://github.com/orgs/knative/projects/32/views/2?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Milestone%22%2C%22Status%22%2C%22Repository%22%2C%22Linked+Pull+Requests%22%5D&sortedBy%5Bdirection%5D=desc&sortedBy%5BcolumnId%5D=Milestone)
+
 - [[v1.6]] 07/05/2022
 - [[v.17]] 08/16/2022 (likely to change to a later date)
-- [knative/release: Knative release docs & scripts](https://github.com/knative/release#release-schedule)
+
+## Networking milestones
+- [Milestones - knative/networking](https://github.com/knative/networking/milestones)
+- [Milestones - knative-sandbox/net-certmanager](https://github.com/knative-sandbox/net-certmanager/milestones?with_issues=no)
+- [Milestones - knative-sandbox/net-contour](https://github.com/knative-sandbox/net-contour/milestones)
+- [Milestones - knative-sandbox/net-gateway-api](https://github.com/knative-sandbox/net-gateway-api/milestones)
+- [Milestones - knative-sandbox/net-http01](https://github.com/knative-sandbox/net-http01/milestones?with_issues=no)
+- [Milestones - knative-sandbox/net-istio](https://github.com/knative-sandbox/net-istio/milestones)
+- [Milestones - knative-sandbox/net-kourier](https://github.com/knative-sandbox/net-kourier/milestones)
 
 ## GH notifications
 - [Notifications](https://github.com/notifications?query=is%3Aunread)

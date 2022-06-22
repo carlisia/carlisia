@@ -7,12 +7,16 @@
 ## Timeline
 ### GA
 GA won't be for at least nine months after v0.5.0 is released, probably a year.
+
 ### v6.0
 - GH [v0.6.0 Milestone](https://github.com/kubernetes-sigs/gateway-api/milestone/6)
 - v0.6.0 won't be GA, it will be the next time we need to move something to v1beta1 (most likely ReferencePolicy once we've settled on a name).
+
 ### v5.0 - v1beta1
+- [Release v0.5.0-rc1 · kubernetes-sigs/gateway-api](https://github.com/kubernetes-sigs/gateway-api/releases/tag/v0.5.0-rc1)
 - GH [v0.5.0 Milestone](https://github.com/kubernetes-sigs/gateway-api/milestone/5)
 - v0.5.0 is v1beta1 for some resources (GatewayClass, Gateway, HTTPRoute), but not all of them.
+- [Gateway API v0.5.0 API Review by robscott · Pull Request #1086 · kubernetes-sigs/gateway-api](https://github.com/kubernetes-sigs/gateway-api/pull/1086?w=1)
 - [feat: introduce v1beta1 types by mehabhalodiya · Pull Request #1073 · kubernetes-sigs/gateway-api](https://github.com/kubernetes-sigs/gateway-api/pull/1073?w=1)
 
 ### v1alpha2
@@ -30,9 +34,14 @@ Summary of big changes:
 [Slack](https://kubernetes.slack.com/archives/CR0H13KGA/p1647527392531919)
 [Slack](https://kubernetes.slack.com/archives/CR0H13KGA/p1648051661322509)
 
+- Core
+- Extended
+- Custom
+
 ## Questions
 
 ## Resources
+- [Main GH Project Board](https://github.com/kubernetes-sigs/gateway-api/projects/1?query=is%3Aopen+sort%3Aupdated-desc)
 - [kubernetes-sigs/gateway-api: Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.](https://github.com/kubernetes-sigs/gateway-api)
 - [Releases · kubernetes-sigs/gateway-api](https://github.com/kubernetes-sigs/gateway-api/releases)
 - [\[SIG-NETWORK\] Gateway API Meeting Notes - Google Docs](https://docs.google.com/document/d/1eg-YjOHaQ7UD28htdNxBR3zufebozXKyI28cl2E11tU/edit)
