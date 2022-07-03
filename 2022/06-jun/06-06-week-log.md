@@ -1,20 +1,16 @@
 # log week of June 6th
 
-## 📝 Planning
-- ❌ plan for this week
-
----
-## 🏋️‍♀️ Work
-### 🙋‍♀️ Planned
+## ❌ fully planned this week
+## 🙋‍♀️ Planned
 - ✅ [[release-check-list-template]] - Update PR
 - ✅ [[corp-trainning#vmw hive training 06/2022]]
 - ✅ Add a [Gateway API Roadmap](https://github.com/orgs/knative-sandbox/projects/10/views/1) - ♥‿♥
 - ✅ PR: [Add carlisia to kubernetes-sigs org by carlisia · Pull Request #3482 · kubernetes/org · GitHub](https://github.com/kubernetes/org/pull/3482) [[prs]] [merged]
 - ❌ sortout tasks from [[2022/gateway-api-beta#Roadmap]] for [[v1.6]] ♥‿♥
 - ❌ [[dependabot-net-repos]] - [[automation]] [[networking]] ♥‿♥
-- ✅ Friday 06-10 [[PTO]] ♥‿♥
+- ✅ Friday 06-10 [[pto]] ♥‿♥
 
-### 😞 Unplanned
+## 😞 Unplanned
 - ✅ Remove open issues from past milestones, create v1.6, for these repos:
   - [Milestones - knative-sandbox/net-certmanager](https://github.com/knative-sandbox/net-certmanager/milestones?with_issues=no)
     - [v1.6.0 Milestone](https://github.com/knative-sandbox/net-certmanager/milestone/1)
