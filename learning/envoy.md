@@ -1,5 +1,8 @@
 # envoy
 
+## Use cases
+- [Tech Talks Episode 11: Let's talk service mesh, with Kelsey Hightower - YouTube](https://www.youtube.com/watch?v=P3nuGTbF-Is)
+  - Great conversation that covers what the needs are for having a service mesh. Envoy sits under very popular service mesh technology.
 ## Read
 - [Getting Edgy: What is Envoy Proxy? | by Stephanie Coyle | Ambassador Labs](https://blog.getambassador.io/what-is-envoy-proxy-eeb1f7316ce7)
 

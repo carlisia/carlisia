@@ -2,7 +2,7 @@
 Joint initiative to implement Gateway API as a subproject of Envoy, and is aiming to be the reference Envoy implementation of the API
 
 Related:
-- [[contour]]
+- [[gateway-api]]
 ## Read
 - [Introducing Envoy Gateway. Today we are thrilled to announce Envoy… | by Matt Klein | May, 2022 | Envoy Proxy](https://blog.envoyproxy.io/introducing-envoy-gateway-ad385cc59532) [[2022/gateway-api-beta]]
 - [Contour Joins Forces With Community Leaders to Build New Envoy Gateway Project - Open Source Blog](https://blogs.vmware.com/opensource/2022/05/16/contour-and-community-build-new-envoy-gateway/) [[2022/gateway-api-beta]]
@@ -12,8 +12,11 @@ Related:
 - [gateway/GOALS.md at main · envoyproxy/gateway](https://github.com/envoyproxy/gateway/blob/main/GOALS.md) [[2022/gateway-api-beta]]
 
 ## Resources
-- [Envoy Gateway Community Meeting - Google Docs](https://docs.google.com/document/d/1leqwsHX8N-XxNEyTflYjRur462ukFxd19Rnk3Uzy55I/edit#heading=h.cyki8rsts10w)
-- [envoyproxy/gateway: Manages Envoy Proxy as a standalone or Kubernetes-based application gateway](https://github.com/envoyproxy/gateway)
+- Meeting
+  - Every Tuesday and Thursday, 2:30 – 4:30 PM PT
+  - Video call link: https://zoom.us/j/98792760813
+  - [Envoy Gateway Community Meeting - Google Docs](https://docs.google.com/document/d/1leqwsHX8N-XxNEyTflYjRur462ukFxd19Rnk3Uzy55I/edit#heading=h.cyki8rsts10w)
+- [envoyproxy/gateway GH](https://github.com/envoyproxy/gateway)
 - [envoy-gateway-developers - Google Groups](https://groups.google.com/g/envoy-gateway-developers)
 
 ## Others

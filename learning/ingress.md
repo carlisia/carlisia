@@ -1,5 +1,7 @@
 # Kubernetes Ingress
 
+## Related
+- [[service-mesh]]
 ## resource
 - [Dave Cheney] [Contour]
     - [IngressRoute: A Path Towards a Better Ingress Object for Kubernetes - David Cheney, VMware - YouTube](https://www.youtube.com/watch?v=PvqmL5MygaM)
@@ -13,8 +15,7 @@
 
 ## uncategorized
 - [Kubernetes Kubectl Proxy vs NodePort vs LoadBalancer vs Ingress with WeMakeDevOps - YouTube](https://www.youtube.com/watch?v=SdhCbs7g6ZY)
-- [Webinar: Simplifying Microservices Security With a Service Mesh - YouTube 🔊](https://www.youtube.com/watch?v=Ai8HlkI7Mm4)
-- [How Do I Choose? API Gateway vs. Ingress Controller vs. Service Mesh - NGINX](https://www.nginx.com/blog/how-do-i-choose-api-gateway-vs-ingress-controller-vs-service-mesh/)
+
 - [Kubernetes ingress tutorials with examples and Lab using Loadbalancer - DevOpsSchool.com](https://www.devopsschool.com/blog/kubernetes-ingress-tutorials-with-examples-and-lab-using-loadbalancer/)
 
 - [Kubernetes TLS]
