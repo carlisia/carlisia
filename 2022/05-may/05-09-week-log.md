@@ -8,7 +8,6 @@
 - ✅ `Get Ready to Be EPIC: FY23 BCG Refresher` - Business Conduct Guideline refresher training [[corp/trainning]]
 - ✅ vote for the [[TOC]]
 ## 😞 Unplanned
-
 - ✅ promotion feedback for [[KM]]
 - ✅ letter of endorsement for [[MF]]
 - ✅ researched and spec'd a [[gateway-api]] issue [Indicate a new Route "Readiness" condition · Issue #1156 · kubernetes-sigs/gateway-api](https://github.com/kubernetes-sigs/gateway-api/issues/1156)
@@ -25,8 +24,6 @@
 ### Reflections
 - [[reflections]] not so much planning as trying to come up with "the right" tasks to tackle as the week progressed. planning, deciding, and acting are three modes that go better when really well separated. (⊙.☉)7
 - [[reflections]] realized when voting for the Knative [[TOC]] that it is really hard not to have a positive biased toward the people I know, regardless of how carefully I read their submissions, and how well-written those were. 🥵
-
-
 
 
 

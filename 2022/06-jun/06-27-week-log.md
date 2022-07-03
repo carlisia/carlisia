@@ -1,11 +1,7 @@
 # log week of June 27th
 
-## 📝 Review
-- ✅ review [[06-20-week-log]]
-
----
-## ✅ fully planned this week
-
+## ✅ review [[06-20-week-log]]
+## ✅ fully plan this week
 ## 🙋‍♀️ Planned
 - 🚧 [Bump Gateway API version to v0.5.0-rc1 · Issue #306 · knative-sandbox/net-gateway-api](https://github.com/knative-sandbox/net-gateway-api/issues/306)
   - ✅ [Upgrade to Go v1.17 by carlisia · Pull Request #313 · knative-sandbox/net-gateway-api](https://github.com/knative-sandbox/net-gateway-api/pull/313?w=1) [[prs]] [[size-XXL]]
@@ -15,7 +11,7 @@
 
 
 ## 😞 Unplanned
-- As part of [Bump Gateway API version to v0.5.0-rc1 · Issue #306 · knative-sandbox/net-gateway-api](https://github.com/knative-sandbox/net-gateway-api/issues/306)
+   As part of [Bump Gateway API version to v0.5.0-rc1 · Issue #306 · knative-sandbox/net-gateway-api](https://github.com/knative-sandbox/net-gateway-api/issues/306)
   - ✅ Refactored out test configuration for different vendors into a common setup file (setup-and-deploy.sh)
   - ✅ improved README and DEVELOPMENT documentation
   - ✅ many conversations at $work about planning and coordinating work that depends on the Gateway API.
@@ -23,34 +19,38 @@
 
 ## Assessments
 ### Positives
-- discovered [GitHub Codespaces](https://github.com/features/codespaces), and it's awesome!
-- ran this type of command: `go get sigs.k8s.io/gateway-api@main` for the first time, felt like magic!
+- [[positives]] discovered [GitHub Codespaces](https://github.com/features/codespaces), and it's awesome!
+- [[positives]] ran this type of command: `go get sigs.k8s.io/gateway-api@main` for the first time, felt like magic!
   - `go: downloading sigs.k8s.io/gateway-api v0.5.0-rc1.0.20220629164606-6f51a1a8ab47`
   - `go: upgraded sigs.k8s.io/gateway-api v0.5.0-rc1 => v0.5.0-rc1.0.20220629164606-6f51a1a8ab47`
-- really feeling like a `$bash` ninja! 🥷
-- felt great to spruce up both the docs and the bash test scripts in the [[net-gateway-api]] repo.
+- [[positives]] really feeling like a `$bash` ninja! 🥷
+- [[positives]] felt great to spruce up both the docs and the bash test scripts in the [[net-gateway-api]] repo.
 
 
 ### Negatives
-- still did not merge [Bump Gateway API version to v0.5.0-rc1](https://github.com/knative-sandbox/net-gateway-api/issues/306). What's so hard with an update, they say! ミ●﹏☉ミ
+- [[negatives]] still did not merge [Bump Gateway API version to v0.5.0-rc1](https://github.com/knative-sandbox/net-gateway-api/issues/306). What's so hard with an update, they say! ミ●﹏☉ミ. More:
   - as seen from last week's negatives, running `./hack/update-codegen.sh` was not generating any code. At all. **on my machine** [see desc](https://github.com/knative-sandbox/net-gateway-api/pull/311?w=1#issuecomment-1167408724)
     - took a long time to catch on to this and more time trying to resolve it - still don't know
     - suspected was machine related since running the same script in the `serving` repo also didn't generate anything when I tweaked things so it should
     - low and behold I discover Codespace, and it worked there! (thanks [@dprotaso](https://github.com/dprotaso))
-  - once I was able to generate code for the `v0.5.0-rc1` of the Gateway API, ran into this issue: [Generated injection code is broken when there's a mismatch in type · Issue #2537 · knative/pkg](https://github.com/knative/pkg/issues/2537) - ([fixed](https://github.com/kubernetes-sigs/gateway-api/pull/1239?w=1)).
-  - spent some time getting go mod `replace` directive entirely wrong before I got it right (aka [@dprotaso](https://github.com/dprotaso) pointed it out to me). This was needed because:
+  - [[negatives]] once I was able to generate code for the `v0.5.0-rc1` of the Gateway API, ran into this issue: [Generated injection code is broken when there's a mismatch in type · Issue #2537 · knative/pkg](https://github.com/knative/pkg/issues/2537) - ([fixed](https://github.com/kubernetes-sigs/gateway-api/pull/1239?w=1)).
+  - [[negatives]]  spent some time getting go mod `replace` directive entirely wrong before I got it right (aka [@dprotaso](https://github.com/dprotaso) pointed it out to me). This was needed because:
     -  `v0.5.0-rc1` of the Gateway API uses `v0.24.1` of `k8s.io` stuff, but Knative is still on `v0.23.8`, so we needed to pin those to the earlier version.
     -  so I guess I am full on go mod expert now.
- -  added unplanned work to the PR because it did not make sense to merge w/o them:
-    -  refactored the test scripts
-    -  improved the documentation
+ - [[negatives]] added unplanned work to the PR because it did not make sense to merge w/o them: refactored the test scripts, improved the documentation
 
 ### Reflections
-- omg the bash scripts all the way down the stack on Knative are not for the faint of heart!!!!! 0__# and... I love it? ¯\(°_o)/¯
+- [[reflections]] omg the bash scripts all the way down the stack on [[knative]] are not for the faint of heart!!!!! 0__# and... I love it? ¯\(°_o)/¯
+- [[reflections]] listened to [Tetrate Tech Talks - Fireside chat on Envoy Gateway - YouTube](https://www.youtube.com/watch?v=1ynXQ753p_Q)
+- [[reflections]] listened to [Tech Talks Episode 11: Let's talk service mesh, with Kelsey Hightower - YouTube](https://www.youtube.com/watch?v=P3nuGTbF-Is)
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [06-20-week-log]: 06-20-week-log.md "log week of June 20th"
 [prs]: ../../contributions/prs.md "pull requests"
 [size-XXL]: ../../contributions/size-XXL.md "XXL"
+[positives]: ../positives.md "positives"
 [net-gateway-api]: ../../knative/net-gateway-api.md "net-gateway-api"
+[negatives]: ../negatives.md "negatives"
+[reflections]: ../reflections.md "reflections"
+[knative]: ../../learning/knative.md "knative"
 [//end]: # "Autogenerated link references"

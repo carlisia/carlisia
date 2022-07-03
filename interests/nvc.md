@@ -3,7 +3,7 @@
 - [What is Nonviolent Communication? | Center for Nonviolent Communication](https://www.cnvc.org/learn-nvc/what-is-nvc)
 
 ## TED Talks
-Those two TED talks approach NVC from completely different angles, and I found both are great.
+These two TED talks approach NVC from completely different angles, and I found both are great.
 
 - [Maria Engels: Nonviolent Communication and Self Awareness | TED Talk](https://www.ted.com/talks/maria_engels_nonviolent_communication_and_self_awareness)
 - [Vulnerable honesty | Yoram Mosenzon | TEDxAmsterdamED - YouTube](https://www.youtube.com/watch?v=LSGfqyhleUA)
