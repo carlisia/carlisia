@@ -4,23 +4,22 @@ Notes about the work needed to be done to bring the [[net-gateway-api]] componen
 - [[gateway-api]]
 - [[net-gateway-api]]
 - [[scrapbook-work-private/gateway-api-beta]]
-
-exercise of making Istio and Contour work side by side in that component now I think is going to be very helpful to move faster later. Hooking up 1+1 vendor is a lot more complex than just 1 as we know, and right now the structure of the project is oriented for just 1. Besides doing the upgrade to beta, I'm also working on expanding the component to adapt to multiple vendors. The other plus is discovering what is missing. Evan has been deep into that part of the work and discovering and sharing some Knative blockers that the EG team can start thinking about (these have been shared with them).
-
+---
+- upgrade to beta
 - continue the discovery work to surface features that are needed/desired and that are missing or broken
 - cross-team collaboration to ensure needed features are implemented
 - net-gateway-api "readiness"
-there's an efficient path for "plugging in" the EG or any other project
-visibility on what each integration is lacking as far as Knative needed features
-probably more that I'm missing
+  - there's an efficient path for "plugging in" the EG or any other project
+  - exercise of making Istio and Contour work side by side in that component now I think is going to be very helpful to move faster later. Hooking up 1+1 vendor is a lot more complex than just 1 as we know, and right now the structure of the project is oriented for just 1.
+  - visibility on what each integration is lacking as far as Knative needed features
 
 
 ## Issues
-### [[v1.6]]
-- [ ] [Document on Knative.dev about installing via Gateway · Issue #5040 · knative/docs](https://github.com/knative/docs/issues/5040)
-- ✅ Add a [Gateway API Roadmap](https://github.com/orgs/knative-sandbox/projects/10/views/1) - ♥‿♥
-- ✅ sortout tasks from [[2022/gateway-api-beta#Roadmap]] for [[v1.6]] ♥‿♥
+- [[gateway-api-issues]]
+## Knative releases
+- [[v1.6]]
 
+---
 - Learning
   - [ ] read [[2022/gateway-api-beta#References]]
   - [ ] read [[envoy-gateway#Read]]
@@ -47,6 +46,7 @@ probably more that I'm missing
 [knative]: ../../learning/knative.md "knative"
 [gateway-api]: ../../kubernetes/gateway-api.md "Kubernetes Gateway API"
 [scrapbook-work-private/gateway-api-beta]: ../../2022/scrapbook-work-private/gateway-api-beta.md "gateway-api beta"
+[gateway-api-issues]: ../../kubernetes/gateway-api-issues.md "Gateway API issues"
 [v1.6]: ../../contributions/v1.6.md "v1.6"
 [2022/gateway-api-beta#Roadmap]: gateway-api-beta.md "gateway-api beta"
 [2022/gateway-api-beta#References]: gateway-api-beta.md "gateway-api beta"
