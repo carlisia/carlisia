@@ -15,6 +15,7 @@
   - ✅ Refactored out test configuration for different vendors into a common setup file (setup-and-deploy.sh)
   - ✅ improved README and DEVELOPMENT documentation
   - ✅ many conversations at $work about planning and coordinating work that depends on the Gateway API.
+
 ---
 
 ## Assessments
