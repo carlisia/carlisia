@@ -48,7 +48,6 @@ Notes about the work needed to be done to bring the [[net-gateway-api]] componen
 [scrapbook-work-private/gateway-api-beta]: ../../2022/scrapbook-work-private/gateway-api-beta.md "gateway-api beta"
 [gateway-api-issues]: ../../kubernetes/gateway-api-issues.md "Gateway API issues"
 [v1.6]: ../../contributions/v1.6.md "v1.6"
-[2022/gateway-api-beta#Roadmap]: gateway-api-beta.md "gateway-api beta"
 [2022/gateway-api-beta#References]: gateway-api-beta.md "gateway-api beta"
 [envoy-gateway#Read]: ../../kubernetes/envoy-gateway.md "envoy gateway"
 [gateway-api#Read]: ../../kubernetes/gateway-api.md "Kubernetes Gateway API"

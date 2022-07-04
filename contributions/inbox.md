@@ -77,7 +77,7 @@
 [net-contour]: ../knative/net-contour.md "net-contour"
 [net-kourier]: ../knative/net-kourier.md "net-kourier"
 [questions]: questions.md "questions"
-[gateway-api]: ../kubernetes/gateway-api.md "gateway-api"
+[gateway-api]: ../kubernetes/gateway-api.md "Kubernetes Gateway API"
 [support]: ../knative/support.md "support"
 [owners-file]: ../scrapbook/2022/owners-file.md "owners file"
 [contributor]: ../oss/contributor.md "contributor"
