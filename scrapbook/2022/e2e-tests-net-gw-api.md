@@ -51,7 +51,7 @@ todo:
         - require installing gateway vendor configuration for that vendor's testing
         - call the tests: `./test/kind-e2e-${{ matrix.ingress }}.sh`
       - run by prow job `integration-tests_net-gateway-api_main`
-        - action takes care of:
+        - job takes care of:
           - setting up a cluster
         - require configuring a Knative test environment (config + test/config and uploads test images)
         - require installing gateway vendor configuration for that vendor's testing
