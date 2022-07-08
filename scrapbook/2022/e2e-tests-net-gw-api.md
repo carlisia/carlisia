@@ -53,19 +53,19 @@ todo:
       - run by prow job `integration-tests_net-gateway-api_main`
         - job takes care of:
           - setting up a cluster
-        - require configuring a Knative test environment (config + test/config and uploads test images)
+        - **Note** require configuring a Knative test environment (config + test/config and uploads test images)
         - require installing gateway vendor configuration for that vendor's testing
         - call `./test/presubmit-tests.sh --integration-tests`
           - runs all `./test/e2e-*tests.sh` scripts, in sequence.
       - run individual tests (against local cluster)
-        - require configuring a Knative test environment (config + test/config and uploads test images)
+        - **Note** require configuring a Knative test environment (config + test/config and uploads test images)
         - require installing gateway vendor configuration for that vendor's testinhg
         - call `./test/e2e-contour-tests.sh`?
     - conformance tests:
       - run by repository's GH action:
         - action takes care of:
           - setting up a cluster
-        - conformance tests do not require configuring a Knative test environment
+        - **Note** require configuring a Knative test environment (config + test/config and uploads test images)
         - require installing gateway vendor configuration for that vendor's testing
         - call the tests: `./test/kind-e2e-${{ matrix.ingress }}.sh`
 
